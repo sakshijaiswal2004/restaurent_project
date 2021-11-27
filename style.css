@@ -1,0 +1,178 @@
+/*
+Author: Sakshi jaiswal;
+Theme:Restaurent Food orders;
+Version:1.0;
+*/
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family:sans-serif;
+}
+.container{
+    
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    }
+
+.logo{
+    width: 15%;
+    float: left;
+}
+.img-responsive{
+    width: 100%;
+    
+}
+.img-curve{
+    border-radius: 15px;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+    padding: 4% ;
+}
+.text-white{
+    color: white;
+}
+.clearfix{
+    clear:both;
+    float: none;
+
+}
+a{
+    color: rgb(214, 77, 104);
+    text-decoration: none;
+
+}
+a:hover{
+    color: blue;
+}
+.menu{
+    line-height: 60px;
+
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display:inline;
+    padding: 1%;
+    font-weight: bold;
+}
+.foodsearch{
+    background-image:url("../img3.jpg") ;
+    background-position: center;
+    padding: 9% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.foodsearch input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+
+}
+.float-container{
+    position: relative;
+    
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+.btn{
+    padding: 1%;
+    border:none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: rgb(209, 6, 46);
+}
+h2{
+    color:rgb(10, 6, 6) ;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.catagories{
+    padding: 3% 0;
+
+}
+.box-3{
+    
+    width: 30%;
+    float:left;
+    margin: 1%;
+    
+
+}
+.foodmenu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+
+.foodmenu-box{
+    width: 43%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+}
+.foodmenu img{
+    
+    width: 35%;
+    float: left;
+}
+.foodmenu-desc{
+    width: 70%;
+    float:left;
+    margin-left: 8%;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-details{
+    font-size: 1rem;
+    color: #747d8c;
+
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+
+}
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 50%;
+        float: none;
+        margin: 1% auto;
+
+    }
+    .menu ul{
+        text-align:center;
+    }
+    .food-search input[type='search';]
+}
